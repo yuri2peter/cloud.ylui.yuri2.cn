@@ -6,7 +6,7 @@
  */
 
 YL.onLoad(function () {
-  var token = Yuri2.parseURL().hash;
+  var token = Yuri2.parseURL().params.id;
   if (token) {
     axios.get(YL.static.cloudAPI + '/' + token)
       .then(function (response) {
