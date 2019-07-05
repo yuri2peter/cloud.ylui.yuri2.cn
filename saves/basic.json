@@ -435,11 +435,11 @@
       "resizable": true,
       "single": true,
       "size": {
-        "height": "20",
-        "width": "80"
+        "height": "100",
+        "width": "200"
       },
       "title": "YLUI云同步",
-      "url": "http://127.0.0.1:5000/cloud",
+      "url": "http://127.0.0.1:3000/cloud",
       "customTile": "",
       "urlRandomToken": true
     }
