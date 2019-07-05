@@ -409,6 +409,39 @@
       "url": "https://imgchr.com/",
       "customTile": "",
       "urlRandomToken": true
+    },
+    "yl-server-cloud": {
+      "addressBar": false,
+      "autoRun": 9,
+      "background": true,
+      "badge": 0,
+      "desc": "维持同步服务，申请云桌面ID",
+      "icon": {
+        "type": "fa",
+        "content": "cloud",
+        "bg": "#6b96cf"
+      },
+      "openMode": "normal",
+      "plugin": true,
+      "position": {
+        "autoOffset": false,
+        "left": false,
+        "top": false,
+        "x": "0",
+        "y": "0"
+      },
+      "version": "1.0.0",
+      "poweredBy": "yuri2版权所有",
+      "resizable": true,
+      "single": true,
+      "size": {
+        "height": "20",
+        "width": "80"
+      },
+      "title": "YLUI云同步",
+      "url": "http://127.0.0.1:5000/cloud",
+      "customTile": "",
+      "urlRandomToken": true
     }
   },
   "shortcuts": [

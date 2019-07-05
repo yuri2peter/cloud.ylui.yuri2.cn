@@ -8,6 +8,11 @@
 YL.onLoad(function () {
   var token = Yuri2.parseURL().params.id;
   if (token) {
+    axios.get('./saves/basic.json')
+      .then(function (response) {
+        YL.init(response.data);
+      })
+    return;
     axios.get(YL.static.cloudAPI + '/' + token)
       .then(function (response) {
         const initData = response.data.data;
