@@ -439,7 +439,7 @@
         "width": "200"
       },
       "title": "YLUI云同步",
-      "url": "http://127.0.0.1:3000/cloud",
+      "url": "https://server.ylui.yuri2.cn/cloud",
       "customTile": "",
       "urlRandomToken": true
     }
